@@ -6,13 +6,19 @@ body {
     width: 100px;
     height: 100px;
     float: left;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 75px;
 
 }
 .row {
     clear: both;
-    height: 100px;
     width: 302px;
     margin: auto;
+}
+
+.row>div:hover {
+    background-color: lightgray;
 }
 
 .top {
